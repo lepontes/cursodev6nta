@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+body {
+    background-color: #444;
+    font-family: Verdana;
+}
+h2 {
+    background-color: #111;
+    border: 1px dotted yellow;
+    color: yellow;
+    font-size: 45px;
+}
+h3{
+	color: yellow;
+	font-size: 20px;
+}
+.branco {
+    color: #FFF;
+}
+.rosa {
+    color: pink;
+}
+.lista {
+    background-color: #00ffff;
+    border: 3px solid white;
+    color: #FFF;
+    width: 100%;
+}
+.lista a {
+    color: orange;
+}

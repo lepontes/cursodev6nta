@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+p, input {
+font-weight: bold;
+}
+.botao {
+background-color: blue;
+color: white;
+min-width: 35px;
+cursor: pointer;
+}
+#resultado {
+color: red;
+}

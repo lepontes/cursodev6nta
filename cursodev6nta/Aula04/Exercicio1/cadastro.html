@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cadastre seu currículo</title>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<h1>Formulário de Cadastro</h1>
+<form action="cadastrar.jsp">
+<fieldset class="dados">
+<legend class="dados">Dados pessoais</legend>
+                Nome:<input type="text" name="nome" placeholder="Nome"><br/><br/>
+                E-mail:<input type="text" name="email" placeholder="Email"><br/><br/>
+                Cidade:<input type="text" name="cidade" placeholder="Cidade"><br/><br/>
+                Estado:
+<select name="estado">
+                    <option value="0">Escolha...</option>
+                    <option value="1">Pará</option>
+                    <option value="2">Amapá</option>
+                    <option value="3">Amazonas</option>
+                    <option value="4">Roraima</option>
+                    <option value="5">Rondonia</option>
+                    <option value="6">Tocantins</option>
+                    <option value="7">Acre</option>
+ </select> <br/>
+ </fieldset> <br/><br/>
+<fieldset class="dados2">
+<legend class="dados2">Dados profissionais</legend>
+                Cargo pretendido: <br/>
+                <input type="radio" name="cargo" value="sistemas"/>Analista de Sistemas
+                <input type="radio" name="cargo" value="bd"/>Analista de Banco de dados
+                <input type="radio" name="cargo" value="suporte"/>Analista de Suporte<br/><br/>
+                Tecnologias de interesse: <br/>
+                <input type="checkbox" name="i" value="java"/> Java
+                <input type="checkbox" name="i" value="htmlcss"/> HTML, CSS
+                <input type="checkbox" name="i" value="javas"/> Javascript
+                <input type="checkbox" name="i" value="sql"/> SQL<br/><br/>
+                Mini currículo: <br/>
+                <textarea cols="70" rows="5"></textarea>
+ </fieldset> <br/><br/>
+<fieldset class="acoes">
+<legend class="acoes">Ações</legend>
+                <input type="submit" value="Enviar" class="botaoEnviar" />
+                <input type="reset" value="Limpar"  class="botaoLimpar" />
+ </fieldset>
+        </form>
+    </body>
+</html>
